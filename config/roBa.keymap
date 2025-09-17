@@ -15,10 +15,10 @@
     arrows {
         layers = <3>;
         bindings =
-            <&msc SCRL_RIGHT>,
-            <&msc SCRL_LEFT>,
-            <&msc SCRL_UP>,
-            <&msc SCRL_DOWN>;
+            <&kp RIGHT_ARROW>,
+            <&kp LEFT_ARROW>,
+            <&kp UP_ARROW>,
+            <&kp DOWN_ARROW>;
 
         tick = <10>;
         wait-ms = <5>;
