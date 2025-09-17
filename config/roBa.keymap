@@ -4,9 +4,9 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <input/processors.dtsi>
 
-/* ここはトップレベル（= 何かのノードの内側じゃない場所）に書く */
+
 &trackball_listener {
-    /* 子ノードとして “レイヤー3のときだけ” の上書きを定義 */
+   
     scroller {
         layers = <3>;
         input-processors = <&zip_xy_to_scroll_mapper>;
