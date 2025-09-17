@@ -4,14 +4,13 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <input/processors.dtsi>
 
-/* ベース時は変換なし（この行自体省略可） */
+
 &trackball_listener {
-    /* ここに子ノードを作って「layer=3 の間だけ」XY→ホイール化 */
+   
     scroller {
         layers = <3>;
         input-processors = <&zip_xy_to_scroll_mapper>;
-        /* 必要なら process-next; を付けて他のオーバーライドも続行 */
-        /* process-next; */
+       
     };
 };
 &mt {
